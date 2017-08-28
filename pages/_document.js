@@ -21,6 +21,7 @@ export default class MyDocument extends Document {
           <title>prbsas</title>
           <meta name="description" content="Portfolio website" />
           <meta name="distribution" content="Global" />
+          <meta name="theme-color" content="#fff"
         </Head>
         <body>
           <Main />
