@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { initGA, logPageView } from '../utils/analytics'
 import styled, { ThemeProvider } from 'styled-components'
 import { media } from '../utils/styleUtils'
 import Head from 'next/head'
@@ -41,10 +42,17 @@ class Page extends Component {
       color: 0,
     }
     this.onToggleTheme = this.onToggleTheme.bind(this)
+
   }
 
-
-
+  componentDidMount() {
+    if (!window.GA_INITIALIZED) {
+      initGA()
+      window.GA_INITIALIZED = true
+    }
+    logPageView()
+  }
+  
   onToggleTheme() {
     const { color } = this.state
     let i = this.state.color
