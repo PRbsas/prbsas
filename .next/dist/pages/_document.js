@@ -65,8 +65,7 @@ var MyDocument = function (_Document) {
   (0, _createClass3.default)(MyDocument, [{
     key: 'render',
     value: function render() {
-      return _react2.default.createElement('html', {
-        __source: {
+      return _react2.default.createElement('html', { lang: 'en', __source: {
           fileName: _jsxFileName,
           lineNumber: 16
         }
@@ -100,20 +99,28 @@ var MyDocument = function (_Document) {
           fileName: _jsxFileName,
           lineNumber: 23
         }
+      }), _react2.default.createElement('meta', { name: 'theme-color', content: '#fff', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24
+        }
+      }), _react2.default.createElement('link', { rel: 'icon', href: '../static/black-circle.png', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25
+        }
       })), _react2.default.createElement('body', {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 27
         }
       }, _react2.default.createElement(_document.Main, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 28
         }
       }), _react2.default.createElement(_document.NextScript, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 29
         }
       })));
     }

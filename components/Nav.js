@@ -33,10 +33,10 @@ const A = styled.a`
 
 export default () => (
   <Wrapper>
-    <A href='https://twitter.com/PRbsas' target='_blank'>Twitter</A>
-    <A href='https://github.com/PRbsas' target='_blank'>GitHub</A>
+    <A href='https://twitter.com/PRbsas' target='_blank' rel='noopener'>Twitter</A>
+    <A href='https://github.com/PRbsas' target='_blank' rel='noopener'>GitHub</A>
     <Link prefetch href='/projects'><A>· Projects</A></Link>
-    <A href='https://www.linkedin.com/in/pramirezpitzen' target='_blank'>LinkedIn</A>
+    <A href='https://www.linkedin.com/in/pramirezpitzen' target='_blank' rel='noopener'>LinkedIn</A>
     <A href='mailto:paularamirezpitzen@gmail.com'>Email</A>
     <Link prefetch href='/about'><A>· About</A></Link>
   </Wrapper>
