@@ -1,16 +1,11 @@
 import Head from 'next/head'
 import Page from '../components/Page'
 import Dot from '../components/Dot'
-import Main from '../components/Main'
-import Nav from '../components/Nav'
-import Footer from '../components/Footer'
-
+import About from '../components/About'
 
 export default () => (
   <Page>
     <Dot />
-    <Main />
-    <Nav />
-    <Footer />
+    <About />
   </Page>
 )

@@ -1,0 +1,114 @@
+{
+  "color": [
+    {
+      "id": "hex-color-generator",
+      "title": "Hex Color Generator",
+      "description": "Change background color by clicking inside the circle or pressing the spacebar. The hex color is printed below. This project was built with HTML, CSS and vanilla JavaScript.",
+      "githubLink": "https://github.com/PRbsas/hex-color-generator",
+      "demoLink": "https://prbsas.github.io/hex-color-generator/"
+    },
+    {
+      "id": "select-and-color",
+      "title": "Select and Color",
+      "description": "Paste some text and select it to see it appear full of color. This project uses the skeleton CSS responsive boilerplate, vanilla JavaScript and the selecting.js and chroma.js libraries.",
+      "githubLink": "https://github.com/PRbsas/select-color",
+      "demoLink": "https://prbsas.github.io/select-color/"
+    }
+  ],
+  "sound": [
+    {
+      "id": "guitar-tuner",
+      "title": "Guitar Tuner",
+      "description": "Click inside the circles or press the numbers shown and listen. This project was built with HTML, CSS and vanilla JavaScript.",
+      "githubLink": "https://github.com/PRbsas/guitar-tuner",
+      "demoLink": "https://prbsas.github.io/guitar-tuner/"
+    }
+  ],
+  "layout": [
+    {
+      "id": "flexbox-cards",
+      "title": "Flexbox Cards",
+      "description": "A series of cards with descriptions and pictures of famous architects. Responsive Layout made with Flexbox.",
+      "githubLink": "https://github.com/PRbsas/flexbox-cards",
+      "demoLink": "https://prbsas.github.io/flexbox-cards/"
+    },
+    {
+      "id": "iso-gallery",
+      "title": "Iso Gallery",
+      "description": "Responsive gallery with a Masonry Layout, built with Isotope.js.",
+      "githubLink": "https://github.com/PRbsas/iso-gallery",
+      "demoLink": "https://prbsas.github.io/iso-gallery/"
+    }
+  ],
+  "time": [
+    {
+      "id": "js-clock",
+      "title": "JavaScript Clock",
+      "description": "Simple digital clock made with vanilla JS.",
+      "githubLink": "https://github.com/PRbsas/js-clock",
+      "demoLink": "https://prbsas.github.io/js-clock/"
+    }
+  ],
+  "random": [
+    {
+      "id": "random-quote-machine",
+      "title": "Random Quote Machine",
+      "description": "Random programming quotes delivered by the Storm Consultancy's API. Get a quote on click and tweet it if it has less than 140 characters. This project was made with vanilla JavaScript and deployed with Surge.",
+      "githubLink": "https://github.com/PRbsas/random-quote-machine",
+      "demoLink": "http://randomquotemachine.surge.sh"
+    },
+    {
+      "id": "9-random",
+      "title": "9 Random",
+      "description": "Get 9 random images from https://unsplash.it every time you refresh the page or press the refresh button. Built with vanilla JavaScript.",
+      "githubLink": "https://github.com/PRbsas/9-random",
+      "demoLink": "https://prbsas.github.io/9-random/"
+    },
+    {
+      "id": "giphy-6",
+      "title": "Giphy 6",
+      "description": "Get 6 gifs trending with the progamming tag. Made with the Giphy API, vanilla JavaScript and deployed with Surge.",
+      "githubLink": "https://github.com/PRbsas/giphy-6",
+      "demoLink": "http://giphy-6.surge.sh"
+    },
+    {
+      "id": "lightbox-image-gallery",
+      "title": "LightBox Image Gallery",
+      "description": "Simple image gallery built with the lightgallery.js library.",
+      "githubLink": "https://github.com/PRbsas/lightbox-image-gallery-js",
+      "demoLink": "https://prbsas.github.io/lightbox-image-gallery-js/"
+    }
+  ],
+  "react": [
+    {
+      "id": "youtube-react-app",
+      "title": "Youtube React App",
+      "description": "React App to search videos from the Youtube API. Built with create-react-app. (Working on it to make it responsive)",
+      "githubLink": "https://github.com/PRbsas/youtube-react-app",
+      "demoLink": "https://prbsas.github.io/youtube-react-app/"
+    },
+    {
+      "id": "spotify-react-app",
+      "title": "Spotify React App",
+      "description": "React App to search for artists with the Spotify API. It displays and allows to play the first 10 songs. Built with create-react-app. (Working on it to make it responsive)",
+      "githubLink": "https://github.com/PRbsas/spotify-react-app",
+      "demoLink": "https://prbsas.github.io/spotify-react-app/"
+    },
+    {
+      "id": "personal-website",
+      "title": "This website",
+      "description": "This website was made with React and Next.js. It uses styled-components with theming. Click anywhere on the page and the theme changes. Deployed with Now.",
+      "githubLink": "/",
+      "demoLink": "/"
+    }
+  ],
+  "webdesign": [
+    {
+      "id": "personal-website",
+      "title": "Previous website",
+      "description": "This site was made with HTML, CSS, vanilla JS and the fullpage.js library.",
+      "githubLink": "/",
+      "demoLink": "/"
+    }
+  ]
+}

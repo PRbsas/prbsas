@@ -1,23 +1,27 @@
-import React from 'react'
 import styled from 'styled-components'
+import { media } from '../utils/styleUtils'
 import Link from 'next/link'
-
-
+import to from 'to-id'
 
 const Dot = styled.div`
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  border-width:10px;
-  border-style: solid;
+  background: ${props => props.theme.cr};
+  color: ${props => props.theme.bg};
   margin-top: 5%;
+  margin-left: 5%;
   transition: all .5s ease;
+  margin-bottom: 80px;
 
   &:hover {
-    transform: scale(1.5);
+    transform: scale(1.3);
   }
+  ${media.phone`
+      margin-bottom: 50px;
+    `}
 `
 
-export default () => (
-  <Link prefetch href='/'><Dot></Dot></Link>
+export default ({ to }) => (
+  <Link prefetch href={to || '/'}><Dot></Dot></Link>
 )

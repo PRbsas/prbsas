@@ -1,13 +1,15 @@
 {
+  "name": "prbsas",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "next": "^2.0.0-beta",
+    "next": "latest",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "styled-components": "^1.4.4"
+    "styled-components": "^1.4.4",
+    "to-id": "^1.0.5"
   }
 }

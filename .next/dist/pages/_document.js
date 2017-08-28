@@ -50,7 +50,7 @@ var _StyleSheet2 = _interopRequireDefault(_StyleSheet);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = '/Users/paularp/Documents/projects/prbsas/pages/_document.js?entry';
+var _jsxFileName = '/Users/paularp/Documents/projects/prweb/pages/_document.js?entry';
 
 
 var MyDocument = function (_Document) {
@@ -68,52 +68,52 @@ var MyDocument = function (_Document) {
       return _react2.default.createElement('html', {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 16
         }
       }, _react2.default.createElement(_document.Head, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 17
         }
       }, _react2.default.createElement('meta', { charset: 'utf-8', __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 18
         }
       }), _react2.default.createElement('meta', { 'http-equiv': 'x-ua-compatible', content: 'ie=edge', __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 19
         }
       }), _react2.default.createElement('meta', { name: 'viewport', content: 'width=device-width, initial-scale=1', __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 20
         }
       }), _react2.default.createElement('title', {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 21
         }
       }, 'prbsas'), _react2.default.createElement('meta', { name: 'description', content: 'Portfolio website', __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 22
         }
       }), _react2.default.createElement('meta', { name: 'distribution', content: 'Global', __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 23
         }
       })), _react2.default.createElement('body', {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24
+          lineNumber: 25
         }
       }, _react2.default.createElement(_document.Main, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 26
         }
       }), _react2.default.createElement(_document.NextScript, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 27
         }
       })));
     }
@@ -121,7 +121,9 @@ var MyDocument = function (_Document) {
     key: 'getInitialProps',
     value: function () {
       var _ref = (0, _asyncToGenerator3.default)(_regenerator2.default.mark(function _callee(_ref2) {
-        var renderPage = _ref2.renderPage;
+        var renderPage = _ref2.renderPage,
+            theme = _ref2.theme,
+            onToggleTheme = _ref2.onToggleTheme;
         var page, styles;
         return _regenerator2.default.wrap(function _callee$(_context) {
           while (1) {

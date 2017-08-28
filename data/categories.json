@@ -1,0 +1,32 @@
+{
+  "categories": [
+    {
+      "id": "color",
+      "title": "Color"
+    },
+    {
+      "id": "sound",
+      "title": "Sound"
+    },
+    {
+      "id": "layout",
+      "title": "Layout"
+    },
+    {
+      "id": "time",
+      "title": "Time"
+    },
+    {
+      "id": "random",
+      "title": "Random"
+    },
+    {
+      "id": "react",
+      "title": "React"
+    },
+    {
+      "id": "webdesign",
+      "title": "Web Design"
+    }
+  ]
+}
