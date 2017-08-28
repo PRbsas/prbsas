@@ -21,7 +21,8 @@ export default class MyDocument extends Document {
           <title>prbsas</title>
           <meta name="description" content="Portfolio website" />
           <meta name="distribution" content="Global" />
-          <meta name="theme-color" content="#fff"
+          <meta name="theme-color" content="#fff" />
+          <link rel="icon" href="../static/black-circle.png">
         </Head>
         <body>
           <Main />
