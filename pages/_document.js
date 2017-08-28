@@ -13,7 +13,7 @@ export default class MyDocument extends Document {
 
   render () {
     return (
-      <html>
+      <html lang="en">
         <Head>
           <meta charset="utf-8" />
           <meta http-equiv="x-ua-compatible" content="ie=edge" />
