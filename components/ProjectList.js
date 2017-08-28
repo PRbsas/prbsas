@@ -68,8 +68,8 @@ export default ({ id, title, description, githubLink, demoLink }) => (
     <Project>
       <Title>{ title } ·</Title>
       <Description>{ description }</Description>
-      <A href={ githubLink } target='_blank'>· Code</A>
-      <A href={ demoLink } target='_blank'>· Demo</A>
+      <A href={ githubLink } target='_blank' rel='noopener'>· Code</A>
+      <A href={ demoLink } target='_blank' rel='noopener'>· Demo</A>
     </Project>
     <Ws />
   </Wrapper>
