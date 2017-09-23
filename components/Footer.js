@@ -21,7 +21,7 @@ const MadeBy = styled.p`
 export default () => (
   <Wrapper>
     <MadeBy>This site was built with react, next.js and
-      styled-components by <strong>prbsas · 2017</strong>
+      styled-components. Deployed with now by <strong>prbsas · 2017</strong>
     </MadeBy>
   </Wrapper>
 )

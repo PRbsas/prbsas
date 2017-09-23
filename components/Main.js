@@ -31,7 +31,7 @@ const Title = styled.h1`
 `
 const Name = styled.h2`
   margin: 0 auto;
-  font-weight: 100;
+  font-weight: 500;
   padding-left: 15px;
   ${media.phone`
       font-size: 24px;
@@ -40,7 +40,7 @@ const Name = styled.h2`
     `}
 `
 const Who = styled.p`
-  font-weight: 100;
+  font-weight: 500;
   margin-top: 0;
   padding-left: 15px;
   ${media.phone`
@@ -55,7 +55,7 @@ export default ({ children }) => (
   <Wrapper>
     <Title>prbsas.</Title>
     <Name>Paula Ramirez Pitzen</Name>
-    <Who>Architect and self-taught Frontend Developer based in NYC.</Who>
+    <Who>Architect and Web Developer based in NYC.</Who>
     { children }
   </Wrapper>
 )

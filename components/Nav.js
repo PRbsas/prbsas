@@ -6,7 +6,7 @@ import Wrapper from '../components/Wrapper'
 const A = styled.a`
   text-decoration: none;
   color: inherit;
-  font-weight: 400;
+  font-weight: 500;
   padding-top: 20px;
   padding-left: 15px;
   padding-right: 10px;
@@ -39,5 +39,6 @@ export default () => (
     <A href='https://www.linkedin.com/in/pramirezpitzen' target='_blank' rel='noopener'>LinkedIn</A>
     <A href='mailto:paularamirezpitzen@gmail.com'>Email</A>
     <Link prefetch href='/about'><A>· About</A></Link>
+    <Link prefetch href='/thoughts'><A>· Thoughts</A></Link>
   </Wrapper>
 )

@@ -98,7 +98,7 @@
       "id": "personal-website",
       "title": "This website",
       "description": "This website was made with React and Next.js. It uses styled-components with theming. Click anywhere on the page and the theme changes. Deployed with Now.",
-      "githubLink": "/",
+      "githubLink": "https://github.com/PRbsas/prbsas",
       "demoLink": "/"
     }
   ],
