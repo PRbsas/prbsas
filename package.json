@@ -6,14 +6,17 @@
     "start": "next start"
   },
   "dependencies": {
+    "@zeit/next-mdx": "^1.1.0",
     "next": "^6.0.3",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-ga": "^2.5.3",
+    "remark-capitalize": "^1.0.0",
     "styled-components": "^3.3.0",
     "to-id": "^1.0.5"
   },
   "devDependencies": {
+    "@mdx-js/mdx": "^0.13.0-0",
     "standard": "^11.0.1"
   }
 }

@@ -54,7 +54,7 @@ export default ({ children }) => (
   <Wrapper>
     <Title>prbsas.</Title>
     <Name>Paula Ramirez Pitzen</Name>
-    <Who>Architect and Web Developer based in NYC.</Who>
+    <Who>Full Stack Web Developer and Architect based in NYC.</Who>
     { children }
   </Wrapper>
 )
