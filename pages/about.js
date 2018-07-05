@@ -1,10 +1,10 @@
-import Page from '../components/Page'
+import Layout from '../components/Layout'
 import Dot from '../components/Dot'
 import About from '../components/About'
 
 export default () => (
-  <Page>
+  <Layout>
     <Dot />
     <About />
-  </Page>
+  </Layout>
 )

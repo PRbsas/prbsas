@@ -1,11 +1,11 @@
 import React from 'react'
-import Page from '../components/Page'
+import Layout from '../components/Layout'
 import Dot from '../components/Dot'
 import Thoughts from '../components/Thoughts'
 
 export default () => (
-  <Page>
+  <Layout>
     <Dot />
     <Thoughts />
-  </Page>
+  </Layout>
 )

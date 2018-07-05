@@ -1,10 +1,10 @@
-import Page from '../../components/Page'
+import Layout from '../../components/Layout'
 import Dot from '../../components/Dot'
 import ProjectList from '../../components/ProjectList'
 import { time } from '../../data/projects.json'
 
 export default () => (
-  <Page>
+  <Layout>
     <Dot to='/projects' />
     {
       time.map(({ id, title, description, githubLink, demoLink }) => (
@@ -18,5 +18,5 @@ export default () => (
         />
       ))
     }
-  </Page>
+  </Layout>
 )
