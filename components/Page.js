@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import { initGA, logPageView } from '../utils/analytics'
 import styled, { ThemeProvider } from 'styled-components'
-import { media } from '../utils/styleUtils'
-import Head from 'next/head'
 
 const Body = styled.div`
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
@@ -33,27 +31,25 @@ const themes = [
 
 ]
 
-
 class Page extends Component {
-  constructor(props) {
+  constructor (props) {
     super(props)
 
     this.state = {
-      color: 0,
+      color: 0
     }
     this.onToggleTheme = this.onToggleTheme.bind(this)
-
   }
 
-  componentDidMount() {
+  componentDidMount () {
     if (!window.GA_INITIALIZED) {
       initGA()
       window.GA_INITIALIZED = true
     }
     logPageView()
   }
-  
-  onToggleTheme() {
+
+  onToggleTheme () {
     const { color } = this.state
     let i = this.state.color
     if (i < 12 - 1) {
@@ -66,9 +62,8 @@ class Page extends Component {
     console.log(color)
   }
 
-
-  render() {
-    const { theme, children } = this.props
+  render () {
+    const { children } = this.props
     const { color } = this.state
     return (
       <ThemeProvider theme={themes[color]}>

@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import { media } from '../utils/styleUtils'
-import Link from 'next/link'
 import Wrapper from '../components/Wrapper'
 
 const Title = styled.h3`
@@ -68,8 +67,8 @@ export default ({ id, title, description, githubLink, demoLink }) => (
     <Project>
       <Title>{ title } ·</Title>
       <Description>{ description }</Description>
-      <A href={ githubLink } target='_blank' rel='noopener'>· Code</A>
-      <A href={ demoLink } target='_blank' rel='noopener'>· Demo</A>
+      <A href={githubLink} target='_blank' rel='noopener'>· Code</A>
+      <A href={demoLink} target='_blank' rel='noopener'>· Demo</A>
     </Project>
     <Ws />
   </Wrapper>

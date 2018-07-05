@@ -22,15 +22,15 @@ const Title = styled.h3`
 
 export default () => (
   <Wrapper>
-      {
-        thoughts.map(({ id, title }) => (
-          <Thoughts
-            id={id}
-            key={id}
-            title={title}
-          />
-        ))
-      }
+    {
+      thoughts.map(({ id, title }) => (
+        <Thoughts
+          id={id}
+          key={id}
+          title={title}
+        />
+      ))
+    }
   </Wrapper>
 )
 

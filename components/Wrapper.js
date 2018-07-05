@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 import { media } from '../utils/styleUtils'
 
-
 const Wrapper = styled.div`
   line-height: 1.5;
   padding: 0 20px;

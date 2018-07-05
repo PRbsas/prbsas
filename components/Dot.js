@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 import { media } from '../utils/styleUtils'
 import Link from 'next/link'
-import to from 'to-id'
 
 const Dot = styled.div`
   width: 80px;
@@ -23,5 +22,5 @@ const Dot = styled.div`
 `
 
 export default ({ to }) => (
-  <Link prefetch href={to || '/'}><Dot></Dot></Link>
+  <Link prefetch href={to || '/'}><Dot /></Link>
 )

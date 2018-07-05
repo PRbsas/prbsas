@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import { media } from '../utils/styleUtils'
-import Link from 'next/link'
 import Wrapper from '../components/Wrapper'
 
 const Title = styled.h1`
