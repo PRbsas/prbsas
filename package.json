@@ -16,6 +16,7 @@
     "to-id": "^1.0.5"
   },
   "devDependencies": {
+    "@mdx-js/loader": "^0.13.0-0",
     "@mdx-js/mdx": "^0.13.0-0",
     "standard": "^11.0.1"
   }

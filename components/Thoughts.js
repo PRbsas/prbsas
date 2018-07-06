@@ -35,5 +35,5 @@ export default () => (
 )
 
 const Thoughts = ({ id, title }) => (
-  <Link href={`/thoughts/${id}`}><Title>{ title }</Title></Link>
+  <Link prefetch href={`/thoughts/${id}`}><Title>{ title }</Title></Link>
 )
