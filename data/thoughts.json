@@ -5,12 +5,36 @@
       "title": "Why Programming"
     },
     {
-      "id": "how-I-built-this-website",
-      "title": "How I built this website"
+      "id": "how-to-start-a-project",
+      "title": "How to Start a Project"
     },
     {
-      "id": "another-post",
-      "title": "Another post"
+      "id": "behind-the-scenes-a-sinatra-application",
+      "title": "Behind the Scenes, a Sinatra Application"
+    },
+    {
+      "id": "friendly-urls-for-your-rails-app-with-friendlyId",
+      "title": "Friendly URLs for your Rails App with FriendlyId"
+    },
+    {
+      "id": "acts-as-votable-gem-for-rails-apps",
+      "title": "Acts As Votable gem for Rails Apps"
+    },
+    {
+      "id": "devise-and-omniauth-authentication-with-rails",
+      "title": "Devise and OmniAuth Authentication with Rails"
+    },
+    {
+      "id": "devit-on-rails",
+      "title": "Devit on Rails"
+    },
+    {
+      "id": "rails-api-and-javascript",
+      "title": "Rails API and JavaScript"
+    },
+    {
+      "id": "react-redux-and-rails-api",
+      "title": "React, Redux and Rails API"
     }
   ]
 }
