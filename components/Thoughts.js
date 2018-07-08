@@ -13,8 +13,14 @@ const Title = styled.h3`
   line-height: 1.25;
   margin-top: 32px;
   margin-bottom: 16px;
+  ${media.tablet`
+      font-size: 32px;
+    `}
   ${media.phone`
-      padding-left: 50px;
+      font-size: 24px;
+    `}
+  ${media.small`
+      font-size: 20px;
     `}
 `
 
@@ -22,11 +28,6 @@ const Date = styled.p`
   font-family: "SF Mono","Roboto Mono",Menlo,monospace;
   color: inherit;
   margin-right: 20px;
-  ${media.phone`
-      margin-top: 10px;
-      display: flex;
-      float: right;
-    `}
 `
 
 const Container = styled.div`

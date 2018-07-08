@@ -8,8 +8,11 @@ const Title = styled.h3`
   line-height: 1.25;
   margin-top: 48px;
   margin-bottom: 16px;
+  ${media.tablet`
+      font-size: 32px;
+    `}
   ${media.phone`
-      padding-left: 50px;
+  font-size: 24px;
     `}
 `
 
@@ -34,19 +37,21 @@ const A = styled.a`
     text-decoration: none;
     color: inherit;
   }
-  ${media.phone`
-      margin-top: 10px;
-      display: flex;
-      float: right;
-    `}
 `
 
 const Project = styled.div`
   max-width: 60%;
   margin-top: 20px;
+  ${media.desktop`
+      max-width: 70%;
+    `}
+  ${media.tablet`
+      max-width: 80%;
+      margin-left: -40px;
+    `}
   ${media.phone`
-      margin-top: 60px;
       max-width: 100%;
+      margin-left: -5px;
     `}
 `
 
