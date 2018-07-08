@@ -3,7 +3,7 @@ import { initGA, logPageView } from '../utils/analytics'
 import styled, { ThemeProvider } from 'styled-components'
 
 const Body = styled.div`
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  font-family: system-ui,sans-serif;
   text-rendering: optimizeLegibility;
   transition: all .5s ease;
   background: ${props => props.theme.bg};

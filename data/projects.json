@@ -1,5 +1,40 @@
 {
-  "color": [
+  "projects": [
+    {
+      "id": "watched",
+      "title": "Watched",
+      "description": "Watched is a fullstack application to keep track and manage your favorite shows. It is built with a React and Redux frontend and a rails API backend.",
+      "githubLink": "https://github.com/PRbsas/watched",
+      "demoLink": "/"
+    },
+    {
+      "id": "devit",
+      "title": "Devit",
+      "description": "Devit is a link aggregator site, similar to Reddit or Hacker News, where a user can submit a link and content to a community, as well as comment on and vote on those submissions.",
+      "githubLink": "https://github.com/PRbsas/devit",
+      "demoLink": "https://devit-rails.herokuapp.com/"
+    },
+    {
+      "id": "paper",
+      "title": "Paper",
+      "description": "RESTful Sinatra web application to create Notebooks that contain: notes, bookmarks and tasks. ",
+      "githubLink": "https://github.com/PRbsas/paper",
+      "demoLink": "https://paper-sinatra.herokuapp.com/"
+    },
+    {
+      "id": "devto-cli-gem",
+      "title": "DevTo CLI Gem",
+      "description": "Application that provides a Command Line Interface (CLI) to an external data source (dev.to). The CLI is composed of an Object Oriented Ruby application.",
+      "githubLink": "https://github.com/PRbsas/devto-cli-gem",
+      "demoLink": "/"
+    },
+    {
+      "id": "personal-website",
+      "title": "This website: prbsas",
+      "description": "This website was made with React and Next.js. It uses styled-components with theming. Click anywhere on the page and the theme changes. Deployed with Now.",
+      "githubLink": "https://github.com/PRbsas/prbsas",
+      "demoLink": "/"
+    },
     {
       "id": "hex-color-generator",
       "title": "Hex Color Generator",
@@ -13,18 +48,14 @@
       "description": "Paste some text and select it to see it appear full of color. This project uses the skeleton CSS responsive boilerplate, vanilla JavaScript and the selecting.js and chroma.js libraries.",
       "githubLink": "https://github.com/PRbsas/select-color",
       "demoLink": "https://prbsas.github.io/select-color/"
-    }
-  ],
-  "sound": [
+    },
     {
       "id": "guitar-tuner",
       "title": "Guitar Tuner",
       "description": "Click inside the circles or press the numbers shown and listen. This project was built with HTML, CSS and vanilla JavaScript.",
       "githubLink": "https://github.com/PRbsas/guitar-tuner",
       "demoLink": "https://prbsas.github.io/guitar-tuner/"
-    }
-  ],
-  "layout": [
+    },
     {
       "id": "flexbox-cards",
       "title": "Flexbox Cards",
@@ -38,18 +69,14 @@
       "description": "Responsive gallery with a Masonry Layout, built with Isotope.js.",
       "githubLink": "https://github.com/PRbsas/iso-gallery",
       "demoLink": "https://prbsas.github.io/iso-gallery/"
-    }
-  ],
-  "time": [
+    },
     {
       "id": "js-clock",
       "title": "JavaScript Clock",
       "description": "Simple digital clock made with vanilla JS.",
       "githubLink": "https://github.com/PRbsas/js-clock",
       "demoLink": "https://prbsas.github.io/js-clock/"
-    }
-  ],
-  "random": [
+    },
     {
       "id": "random-quote-machine",
       "title": "Random Quote Machine",
@@ -77,9 +104,7 @@
       "description": "Simple image gallery built with the lightgallery.js library.",
       "githubLink": "https://github.com/PRbsas/lightbox-image-gallery-js",
       "demoLink": "https://prbsas.github.io/lightbox-image-gallery-js/"
-    }
-  ],
-  "react": [
+    },
     {
       "id": "youtube-react-app",
       "title": "Youtube React App",
@@ -95,16 +120,7 @@
       "demoLink": "https://prbsas.github.io/spotify-react-app/"
     },
     {
-      "id": "personal-website",
-      "title": "This website",
-      "description": "This website was made with React and Next.js. It uses styled-components with theming. Click anywhere on the page and the theme changes. Deployed with Now.",
-      "githubLink": "https://github.com/PRbsas/prbsas",
-      "demoLink": "/"
-    }
-  ],
-  "webdesign": [
-    {
-      "id": "personal-website",
+      "id": "previous-website",
       "title": "Previous website",
       "description": "This site was made with HTML, CSS, vanilla JS and the fullpage.js library.",
       "githubLink": "/",
