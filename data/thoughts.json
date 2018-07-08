@@ -1,40 +1,49 @@
 {
   "thoughts": [
     {
-      "id": "why-programming",
-      "title": "Why Programming"
-    },
-    {
       "id": "how-to-start-a-project",
-      "title": "How to Start a Project"
+      "title": "How to Start a Project",
+      "date": "Nov 09 2017"
     },
     {
       "id": "behind-the-scenes-a-sinatra-application",
-      "title": "Behind the Scenes, a Sinatra Application"
+      "title": "Behind the Scenes, a Sinatra Application",
+      "date": "Dec 20 2017"
+    },
+    {
+      "id": "why-programming",
+      "title": "Why Programming",
+      "date": "Feb 15 2018"
     },
     {
       "id": "friendly-urls-for-your-rails-app-with-friendlyId",
-      "title": "Friendly URLs for your Rails App with FriendlyId"
+      "title": "Friendly URLs for your Rails App with FriendlyId",
+      "date": "Feb 23 2018"
     },
     {
       "id": "acts-as-votable-gem-for-rails-apps",
-      "title": "Acts As Votable gem for Rails Apps"
+      "title": "Acts As Votable gem for Rails Apps",
+      "date": "Feb 23 2018"
     },
     {
       "id": "devise-and-omniauth-authentication-with-rails",
-      "title": "Devise and OmniAuth Authentication with Rails"
+      "title": "Devise and OmniAuth Authentication with Rails",
+      "date": "Feb 23 2018"
     },
     {
       "id": "devit-on-rails",
-      "title": "Devit on Rails"
+      "title": "Devit on Rails",
+      "date": "Feb 24 2018"
     },
     {
       "id": "rails-api-and-javascript",
-      "title": "Rails API and JavaScript"
+      "title": "Rails API and JavaScript",
+      "date": "Mar 10 2018"
     },
     {
       "id": "react-redux-and-rails-api",
-      "title": "React, Redux and Rails API"
+      "title": "React, Redux and Rails API",
+      "date": "May 07 2018"
     }
   ]
 }
