@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { media } from '../utils/styleUtils'
-import Wrapper from '../components/Wrapper'
+import Wrapper from './Wrapper'
 
 const Name = styled.h2`
   font-weight: 500;

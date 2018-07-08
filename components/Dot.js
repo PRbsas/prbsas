@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { media } from '../utils/styleUtils'
 import Link from 'next/link'
 
 const Dot = styled.div`
@@ -8,17 +7,14 @@ const Dot = styled.div`
   border-radius: 50%;
   background: ${props => props.theme.cr};
   color: ${props => props.theme.bg};
-  margin-top: 5%;
+  margin-top: 8%;
   margin-left: 5%;
   transition: all .5s ease;
-  margin-bottom: 80px;
+  margin-bottom: 32px;
 
   &:hover {
     transform: scale(1.3);
   }
-  ${media.phone`
-      margin-bottom: 50px;
-    `}
 `
 
 export default ({ to }) => (

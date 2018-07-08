@@ -5,6 +5,7 @@ const Wrapper = styled.div`
   line-height: 1.5;
   padding: 0 20px;
   margin-left: 150px;
+  margin-bottom: 120px;
   ${media.desktop`
       margin-left: 100px;
     `}

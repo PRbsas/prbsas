@@ -1,11 +1,9 @@
-import Layout from '../components/Layout'
-import Dot from '../components/Dot'
-import Project from '../components/Project'
+import Wrapper from './Wrapper'
+import Project from './Project'
 import { projects } from '../data/projects.json'
 
 export default () => (
-  <Layout>
-    <Dot to='/' />
+  <Wrapper>
     {
       projects.map(({ id, title, description, githubLink, demoLink }) => (
         <Project
@@ -18,5 +16,5 @@ export default () => (
         />
       ))
     }
-  </Layout>
+  </Wrapper>
 )

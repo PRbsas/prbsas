@@ -3,16 +3,21 @@ import { media } from '../utils/styleUtils'
 import Link from 'next/link'
 import Wrapper from '../components/Wrapper'
 
+const UL = styled.ul`
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+`
+
 const A = styled.a`
   text-decoration: none;
   color: inherit;
-  font-weight: 500;
-  padding-top: 20px;
-  padding-left: 15px;
-  padding-right: 10px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.5;
+  padding-left: 8px;
 
   &:hover {
-    font-weight: 800;
     cursor: pointer;
     color: inherit;
   }
@@ -20,11 +25,11 @@ const A = styled.a`
     text-decoration: none;
     color: inherit;
   }
+  ${media.tablet`
+      font-size: 24px;
+    `}
   ${media.phone`
-      display: block;
-      text-align: right;
-      margin-right: 20px;
-      padding-top: 8px;
+      font-size: 20px;
     `}
   ${media.small`
       margin-right: 5px;
@@ -33,12 +38,14 @@ const A = styled.a`
 
 export default () => (
   <Wrapper>
-    <A href='https://twitter.com/PRbsas' target='_blank' rel='noopener'>Twitter</A>
-    <A href='https://github.com/PRbsas' target='_blank' rel='noopener'>GitHub</A>
-    <Link prefetch href='/projects'><A>· Projects</A></Link>
-    <A href='https://www.linkedin.com/in/pramirezpitzen' target='_blank' rel='noopener'>LinkedIn</A>
-    <A href='mailto:paularamirezpitzen@gmail.com'>Email</A>
-    <Link prefetch href='/about'><A>· About</A></Link>
-    <Link prefetch href='/thoughts'><A>· Thoughts</A></Link>
+    <UL>
+      <li><A href='https://twitter.com/PRbsas' target='_blank' rel='noopener'>Twitter</A></li>
+      <li><A href='https://github.com/PRbsas' target='_blank' rel='noopener'>GitHub</A></li>
+      <li><Link prefetch href='/projects'><A>Projects</A></Link></li>
+      <li><A href='https://www.linkedin.com/in/pramirezpitzen' target='_blank' rel='noopener'>LinkedIn</A></li>
+      <li><A href='mailto:paularamirezpitzen@gmail.com'>Email</A></li>
+      <li><Link prefetch href='/about'><A>About</A></Link></li>
+      <li><Link prefetch href='/thoughts'><A>Thoughts</A></Link></li>
+    </UL>
   </Wrapper>
 )

@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import { media } from '../utils/styleUtils'
-import Wrapper from '../components/Wrapper'
 
 const Title = styled.h3`
   margin: 0 auto;
@@ -52,12 +51,10 @@ const Project = styled.div`
 `
 
 export default ({ id, title, description, githubLink, demoLink }) => (
-  <Wrapper>
-    <Project>
-      <Title>{ title } ·</Title>
-      <Description>{ description }</Description>
-      <A href={githubLink} target='_blank' rel='noopener'>Code</A>
-      <A href={demoLink} target='_blank' rel='noopener'>Demo</A>
-    </Project>
-  </Wrapper>
+  <Project>
+    <Title>{ title } ·</Title>
+    <Description>{ description }</Description>
+    <A href={githubLink} target='_blank' rel='noopener'>Code</A>
+    <A href={demoLink} target='_blank' rel='noopener'>Demo</A>
+  </Project>
 )

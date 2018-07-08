@@ -1,27 +1,20 @@
 import styled from 'styled-components'
 import { media } from '../utils/styleUtils'
-import Wrapper from '../components/Wrapper'
+import Wrapper from './Wrapper'
 
 const MadeBy = styled.p`
-  font-size: 14px;
-  padding-left: 15px;
-  margin-top: 60px;
+  font-size: 16px;
+  padding-left: 8px;
+  margin-top: 120px;
+  margin-bottom: 120px;
   ${media.phone`
       font-size: 12px;
-      text-align: right;
-      margin-right: 30px;
-      padding-left: 10px;
       margin-top: 40px;
-    `}
-  ${media.small`
-      margin-right:8px;
     `}
 `
 
 export default () => (
   <Wrapper>
-    <MadeBy>This site was built with react, next.js and
-      styled-components. Deployed with now by <strong>prbsas · 2017</strong>
-    </MadeBy>
+    <MadeBy>Made by prbsas · 2017</MadeBy>
   </Wrapper>
 )

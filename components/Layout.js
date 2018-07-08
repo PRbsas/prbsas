@@ -4,6 +4,7 @@ import styled, { ThemeProvider } from 'styled-components'
 
 const Body = styled.div`
   font-family: system-ui,sans-serif;
+  box-sizing: border-box;
   text-rendering: optimizeLegibility;
   transition: all .5s ease;
   background: ${props => props.theme.bg};
@@ -28,7 +29,6 @@ const themes = [
   { bg: '#FF2D55', cr: '#000000' },
   { bg: '#0000ff', cr: '#ffffff' },
   { bg: '#b6f001', cr: '#3b01f0' }
-
 ]
 
 export default class Layout extends Component {
