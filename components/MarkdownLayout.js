@@ -1,5 +1,9 @@
 import styled from 'styled-components'
 import { media } from '../utils/styleUtils'
+import { MDXProvider } from '@mdx-js/tag'
+import { Container, Provider as RebassProvider } from 'rebass'
+
+import components from '../components/mdx'
 
 const MarkdownLayout = styled.div`
   line-height: 1.5;
@@ -25,5 +29,13 @@ const MarkdownLayout = styled.div`
 `
 
 export default ({ children }) => (
-  <MarkdownLayout>{ children }</MarkdownLayout>
+  <MarkdownLayout>
+    <MDXProvider components={components}>
+      <RebassProvider>
+        <Container>
+          { children }
+        </Container>
+      </RebassProvider>
+    </MDXProvider>
+  </MarkdownLayout>
 )
