@@ -5,7 +5,7 @@ const Dot = styled.div`
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background: ${props => props.theme.cr};
+  background: ${props => props.theme.cr || '#000'};
   color: ${props => props.theme.bg};
   margin-top: 8%;
   margin-left: 5%;

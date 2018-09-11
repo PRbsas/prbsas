@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 import { media } from '../utils/styleUtils'
 import { MDXProvider } from '@mdx-js/tag'
-import { Container, Provider as RebassProvider } from 'rebass'
+import { Provider as RebassProvider } from 'rebass'
+import Dot from './Dot'
 
 import components from '../components/mdx'
 
@@ -29,13 +30,12 @@ const MarkdownLayout = styled.div`
 `
 
 export default ({ children }) => (
-  <MarkdownLayout>
-    <MDXProvider components={components}>
-      <RebassProvider>
-        <Container>
-          { children }
-        </Container>
-      </RebassProvider>
-    </MDXProvider>
-  </MarkdownLayout>
+  <MDXProvider components={components}>
+    <RebassProvider>
+      <Dot to='/thoughts' />
+      <MarkdownLayout>
+        { children }
+      </MarkdownLayout>
+    </RebassProvider>
+  </MDXProvider>
 )
