@@ -39,13 +39,14 @@ const A = styled.a`
 export default () => (
   <Wrapper>
     <UL>
-      <li><A href='https://twitter.com/PRbsas' target='_blank' rel='noopener'>Twitter</A></li>
-      <li><A href='https://github.com/PRbsas' target='_blank' rel='noopener'>GitHub</A></li>
+
       <li><Link prefetch href='/projects'><A>Projects</A></Link></li>
-      <li><A href='https://www.linkedin.com/in/pramirezpitzen' target='_blank' rel='noopener'>LinkedIn</A></li>
-      <li><A href='mailto:paularamirezpitzen@gmail.com'>Email</A></li>
-      <li><Link prefetch href='/about'><A>About</A></Link></li>
+      <li><A href='https://github.com/PRbsas' target='_blank' rel='noopener'>GitHub</A></li>
       <li><Link prefetch href='/thoughts'><A>Thoughts</A></Link></li>
+      <li><A href='https://www.linkedin.com/in/pramirezpitzen' target='_blank' rel='noopener'>LinkedIn</A></li>
+      <li><A href='https://twitter.com/PRbsas' target='_blank' rel='noopener'>Twitter</A></li>
+      <li><A href='mailto:paularamirezpitzen@gmail.com'>Email</A></li>
+
     </UL>
   </Wrapper>
 )
